@@ -1,7 +1,6 @@
 # TBZ_m164_PortFolio_Luk_Gru
 
-
----
+Dieses Repository 
 
 ## Ordnerstrucktur
 
@@ -11,7 +10,7 @@ In diesem Ordner dokumentiere ich alle Inhalte und Reflexionen zu jedem Modultag
 
 **Pfad:** `01-journal/journal.md`
 
-
+--
 
 ### 02-aufträge-und-zusammenfassungen
 
@@ -22,7 +21,7 @@ Dieser Ordner enthält für **jeden Modultag einen Unterordner**, der folgende I
 
 Beispielstruktur eines Tages:
 
-
+--
 
 ### 03-ressourcen
 
