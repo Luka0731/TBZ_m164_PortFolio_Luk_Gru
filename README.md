@@ -12,8 +12,6 @@ In diesem Ordner dokumentiere ich alle Inhalte und Reflexionen zu jedem Modultag
 
 **Pfad:** [`01-journal/journal.md`](01-journal/journal.md)
 
--
-
 ### 02-aufträge-und-zusammenfassungen
 
 Dieser Ordner enthält für **jeden Modultag einen Unterordner**, der folgende Inhalte enthält:
@@ -23,21 +21,18 @@ Dieser Ordner enthält für **jeden Modultag einen Unterordner**, der folgende I
 
 Beispielstruktur eines Tages:
 
---
-
 ### 03-ressourcen
 
 Sammlung externer Materialien, wie z. B. Diagramme und SQL-Files von Aufträgen.
 
---
-
 ## Verwendete Tools
 
-- **Markdown** für die Dokumentation
-- **MySQL / MariaDB** für die Datenbank
-- **Git** für Versionskontrolle
-- **Visual Studio Code**, **DBeaver** oder **MySQL Workbench**
-- Optional: **draw.io**, **dbdiagram.io** für Datenbankvisualisierungen
+- MySQL
+- MySQL Workbench
+- Xampp
+- Git
+- Markdown
+- draw.io
 
 ---
 
