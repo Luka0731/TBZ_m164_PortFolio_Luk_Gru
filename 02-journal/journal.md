@@ -65,6 +65,6 @@ Das Projekt lief ohne Schwierigkeiten und ich konnte einen guten Start in den Ta
 
 ---
 
-### Tag 9 - 8.07.2025
+### Tag 9 - 08.07.2025
 
 
