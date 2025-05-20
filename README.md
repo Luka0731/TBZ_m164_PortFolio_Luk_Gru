@@ -25,6 +25,8 @@ Beispielstruktur eines Tages:
 
 Sammlung externer Materialien, wie z. B. Diagramme und SQL-Files von Aufträgen.
 
+---
+
 ## Verwendete Tools
 
 - MySQL
