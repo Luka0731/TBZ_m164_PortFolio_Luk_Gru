@@ -1,6 +1,8 @@
 # TBZ_m164_PortFolio_Luk_Gru
 
-Dieses Repository 
+Dieses Portfolio enthält alle Zusammenfassungen und gelösten Aufträge zum Modul 164 der TBZ vom Lehrnenden Luka Grujic.
+
+---
 
 ## Ordnerstrucktur
 
@@ -8,9 +10,9 @@ Dieses Repository
 
 In diesem Ordner dokumentiere ich alle Inhalte und Reflexionen zu jedem Modultag. Die Datei enthält:
 
-**Pfad:** `01-journal/journal.md`
+**Pfad:** [`01-journal/journal.md`](01-journal/journal.md)
 
---
+-
 
 ### 02-aufträge-und-zusammenfassungen
 
@@ -27,7 +29,7 @@ Beispielstruktur eines Tages:
 
 Sammlung externer Materialien, wie z. B. Diagramme und SQL-Files von Aufträgen.
 
----
+--
 
 ## Verwendete Tools
 
