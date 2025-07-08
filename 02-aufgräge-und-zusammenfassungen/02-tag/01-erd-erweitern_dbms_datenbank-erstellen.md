@@ -6,9 +6,6 @@
 * [Beziehungsarten: Indentifying / Non-Identifying Relationship](#beziehungsarten:-indentifying-/-non-identifying-relationship)
 * [Kombinationen von Vererbung und Beziehungstypen](#kombinationen-von-vererbung-und-beziehungstypen)
 * [DBMS](#dbms)
-* [](#)
-* [](#)
-* [](#)
 
 ---
 
@@ -136,24 +133,17 @@ sql´´´
 ### Merkmale DBMS
 
 1. **Integrierte Datenhaltung** -> Einheitliche Verwaltung aller benötigter Daten, Keine Redudanzen, Vielzahl komplexer Beziehungen, Daten verknüpfen
-
 2. **Sprache** -> SQL
-- Datenanfrage (Data Query/Retrieval Language, DQL / DRL → SELECT ),
-- Verwaltung der Datenstruktur (Data Definition Language, DDL → CREATE ),
-- Datenmanipulation (Data Manipulation Language, DML → INSERT ),
-- Berechtigungssteuerung (Data Control Language, DCL → GRANT),
-- Transaktionen (Transaction Control Language, TCL → COMMIT ).
-
+    - Datenanfrage (Data Query/Retrieval Language, DQL / DRL → SELECT ),
+    - Verwaltung der Datenstruktur (Data Definition Language, DDL → CREATE ),
+    - Datenmanipulation (Data Manipulation Language, DML → INSERT ),
+    - Berechtigungssteuerung (Data Control Language, DCL → GRANT),
+    - Transaktionen (Transaction Control Language, TCL → COMMIT ).
 3. **Katalog** -> Katalog (data dictionary) ermöglicht Zugriffe auf die Datenbeschreibungen der Datenbank, die auch als Metadaten bezeichnet werden.
-
 4. **Benutzerzersichten** -> Andere Views des Datenbestands für jeden User
-
 5. **Konsistenzkontrolle** -> Constrains, keine ungewollten Daten in die Datenbank
-
 6. **Datenzugriffskontrolle** -> Rollen
-
 7. **Transaktionen + Merbenutzerfähigkeit** -> Mehrere Einheiten die sich zur Transaktion zusammenfühern, auf einmal aufgeführt werden (Atomarität) und permanent in der Datenbank gespeichert sind (Dauerhaftigkeit). Mehrer Benutzer sollten gleichzeitig daten ablesen und speichern können, ohne das etwas überschrieben wird (isolation). Nach der Transaktion ist die Datenbank in einem gültigen Zustand (Consistency) 
-
 8. **Datensicherung** -> recovery, Verlorene Daten wieder herstellen können anhand eines Backups
 
 ### Vorteile des Datenbankeinsatzes
@@ -161,21 +151,16 @@ sql´´´
 - **Nutzung von Standards**
   - Einheitliche Formate, Namen, Schlüssel, Fachbegriffe
   - Erleichtert Datenorganisation und -integration
-
 - **Effizienter Datenzugriff**
   - Optimierte Speicher- und Zugriffstechniken für große Datenmengen
-
 - **Kürzere Softwareentwicklungszeiten**
   - Wiederverwendbare DBMS-Funktionen
   - Entlastung der Entwickler durch Standardwerkzeuge
-
 - **Hohe Flexibilität**
   - Strukturveränderungen ohne große Auswirkungen (Datenunabhängigkeit)
-
 - **Hohe Verfügbarkeit**
   - Gleichzeitiger Zugriff vieler Nutzer durch Transaktionsverwaltung
   - Änderungen sofort sichtbar nach Transaktionsende
-
 - **Große Wirtschaftlichkeit**
   - Zentralisierte Datenhaltung spart Hardwarekosten
   - Reduktion von Betriebs- und Verwaltungskosten
@@ -184,19 +169,18 @@ sql´´´
 
 - **Hohe Anfangsinvestitionen**
   - Kosten für leistungsfähige Hardware und DB-Software
-
 - **Weniger effizient für Spezialanwendungen**
   - DBMS ist Allzweck-Software, nicht maßgeschneidert
-
 - **Eingeschränkte Optimierbarkeit**
   - Nur ein Teil der Programme kann ideal bedient werden
-
 - **Mehrkosten für Zusatzfunktionen**
   - z. B. Datensicherheit, Synchronisation, Konsistenzkontrolle
-
 - **Fachpersonal notwendig**
   - Datenbankadministratoren, -entwickler und -designer
-
 - **Zentrale Abhängigkeit**
   - Ausfallrisiko bei zentralem System (Gegenmaßnahme: Verteilung)
+
+### Wichtigste Datenbank-Engines
+
+![Wichtigste Datenbank-Engines](10-wichstigste-db-engines.png)
 
